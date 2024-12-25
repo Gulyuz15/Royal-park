@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+ <!-- start -->
+  <div class="start">
+    <!-- navbar -->
+    <nav class="navbar mt-2">
+      <div class="container d-flex justify-content-around align-items-center">
+        <img src="./img/navbar-logo.png" alt="" />
+        <ul class="navbar-nav d-md-flex d-none">
+          <div class="d-flex gap-5">
+            <li>
+              <a href="#!" class="navbar-link text-decoration-none">Home</a>
+            </li>
+            <li>
+              <a href="#!" class="navbar-link text-decoration-none">Features</a>
+            </li>
+            <li>
+              <a href="#!" class="navbar-link text-decoration-none">Gallary</a>
+            </li>
+            <li>
+              <a href="#!" class="navbar-link text-decoration-none">Testimonials </a>
+            </li>
+          </div>
+        </ul>
+        <button class="all-button">Book now</button>
+        <button
+          class="navbar-toggler d-md-none d-flex"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+     <!-- header -->
+     <header class="header mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-10">
+            <div class="gap-3 d-flex flex-column justify-content-center align-items-start">
+              <h4 class="home">Serenity</h4>
+              <h1>Stay with us feel like <span class="home">home</span>.</h1>
+              <p class="fs-4">Pet-friendly hotels are becoming increasingly popular; appealing to travellers who can’t bear to be parted.</p>
+              <button class="all-button">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </header>
+     <!-- header end -->
+  </div>
+ <!-- start end -->
+  <!-- dream -->
+  <div class="dream mt-5">
+    <div class="container">
+      <div class="row gx-5  gy-5 align-items-center">
+        <div class="col-md-6 ">
+          <div>
+            <img class="w-100" src="./img/dream-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class=" d-flex flex-column align-items-start justify-content-center gap-4">
+            <p class="home h4">Dream holidays</p>
+            <h4 class="fs-2">Enjoy unforgettable experiences in dream hotels.</h4>
+            <button class="all-button">View more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- dream end -->
+   <!-- choose -->
+    <div class="choose">
+      <div class="container">
+        <div class="data mt-5 mb-5 d-flex flex-column align-items-center justify-content-center">
+          <h3>Why you choose us!</h3>
+          <p fs-3>Naturally, it’s becoming even more important for hotel and hospitality brands to stand out from the crowd. Content marketing remains a key way for hotels to do this.</p>
+        </div>
+        <div class="row mb-5 justify-content-center align-items-center gy-3">
+          <div class="col-lg-3 col-md-6 col-10">
+            <div class="card shadow text-center d-flex flex-column align-items-center justify-content-center gap-3">
+              <img class="choose-img mt-4" src="./img/choose-1.png" alt="">
+              <h4>Easy booking </h4>
+              <p>The booking process should include minimal steps.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-10">
+            <div class="card shadow text-center d-flex flex-column align-items-center justify-content-center gap-3">
+              <img class="choose-img mt-4" src="./img/choose-2.png" alt="">
+              <h4>Easy booking </h4>
+              <p>The booking process should include minimal steps.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-10">
+            <div class="card shadow text-center d-flex flex-column align-items-center justify-content-center gap-3">
+              <img class="choose-img mt-4" src="./img/choose-3.png" alt="">
+              <h4>Easy booking </h4>
+              <p>The booking process should include minimal steps.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-10">
+            <div class="card shadow text-center d-flex flex-column align-items-center justify-content-center gap-3">
+              <img class="choose-img mt-4" src="./img/choose-4.png" alt="">
+              <h4>Easy booking </h4>
+              <p>The booking process should include minimal steps.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- choose end -->
+    <!-- gallery -->
+     <div class="gallery"> 
+      <div class="container">
+        <div class="row gy-4 gx-3 mb-5">
+          <div class="col-lg-6 col-10">
+            <div class="data mt-5 mb-5 d-flex flex-column align-items-start justify-content-center">
+              <h3>Why you choose us!</h3>
+              <p fs-3>Naturally, it’s becoming even more important for hotel and hospitality brands to stand out from the crowd. Content marketing remains a key way for hotels to do this.</p>
+              <button class="all-button">View more</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-10">
+            <div class="position-relativ">
+              <img class="w-100" src="./img/gallery-1.png" alt="">
+              <div class="small-card d-flex flex-column justify-content-center align-items-center position-absolute">
+                <h4>Lux: Room</h4>
+                <p>$60 night</p>
+                <button class="all-button p-2">Book now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-10">
+            <div class="position-relativ">
+              <img class="w-100" src="./img/gallery-2.png" alt="">
+              <div class="small-card d-flex flex-column justify-content-center align-items-center position-absolute">
+                <h4>Lux: Room</h4>
+                <p>$60 night</p>
+                <button class="all-button p-2">Book now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-10">
+            <div class="position-relativ">
+              <img class="w-100" src="./img/gallery-3.png" alt="">
+              <div class="small-card d-flex flex-column justify-content-center align-items-center position-absolute">
+                <h4>Lux: Room</h4>
+                <p>$60 night</p>
+                <button class="all-button p-2">Book now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-10">
+            <div class="position-relativ">
+              <img class="w-100" src="./img/gallery-4.png" alt="">
+              <div class="small-card d-flex flex-column justify-content-center align-items-center position-absolute">
+                <h4>Lux: Room</h4>
+                <p>$60 night</p>
+                <button class="all-button p-2">Book now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-10">
+            <div class="position-relativ">
+              <img class="w-100" src="./img/gallery-5.png" alt="">
+              <div class="small-card d-flex flex-column justify-content-center align-items-center position-absolute">
+                <h4>Lux: Room</h4>
+                <p>$60 night</p>
+                <button class="all-button p-2">Book now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- gallery end -->
+     <!-- client -->
+      <div class="client">
+        <div class="container">
+          <div class=" d-flex gap-5 w-100 justify-content-around">
+            <h3>What our client say</h3>
+            <button class="all-button">View All</button>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 mb-5 mt-5">
+              <div class="card shadow text-center d-flex flex-column align-items-center justify-content-center gap-3 p-2">
+                <img class="choose-img mt-4" src="./img/clien-1.png" alt="">
+                <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <h4>David lee</h4>
+                <p>davidlee@</p>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-5 mt-5">
+              <div class="card shadow text-center d-flex flex-column align-items-center justify-content-center gap-3 p-2">
+                <img class="choose-img mt-4" src="./img/client-2.png" alt="">
+                <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <h4>Ravi shankor</h4>
+                <p>ravishankor@</p>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-5 mt-5">
+              <div class="card shadow text-center d-flex flex-column align-items-center justify-content-center gap-3 p-2">
+                <img class="choose-img mt-4" src="./img/client-3.png" alt="">
+                <p class="fs-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit Ultrices.</p>
+                <h4>Thomas lew</h4>
+                <p>thomaslew@</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- client end -->
+      <!-- stay -->
+       <div class="stay mb-5">
+        <div class="container">
+          <div class="d-flex flex-column align-items-center gap-4">
+            <h4>STAY IN TOUCH</h4>
+            <h2>Join our email. First to know about specials,events and more!</h2>
+            <div class="d-flex">
+              <input type="text">
+              <button class="all-button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+       </div>
+      <!-- stay end -->
+       <!-- footer -->
+        <footer class="footer mb-5">
+          <div class="container">
+            <div class="row gy-4 justify-content-center align-items-center">
+              <div class="col-lg-3 col-md-6 col-1">
+                <div>
+                  <img src="./img/navbar-logo.png" alt="">
+                  <p>Travel deals on hotels, flights, vacation packages.</p>
+                  <p>@shovasatkhira88.com</p>
+                  <div class="gx-3">
+                    <i class="fa-brands fs-4 fa-square-facebook" style="color: #2b5eb6;"></i>
+                    <i class="fa-brands fs-4 fa-square-instagram" style="color: #fb18f4;"></i>
+                    <i class="fa-brands fs-4 fa-square-twitter" style="color: #74C0FC;"></i>
+                    <i class="fa-brands fs-4 fa-google"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-3 col-6">
+                <div class="gap-3">
+                  <h4>Home</h4>
+                  <p>Accessibility</p>
+                  <p>Lertifiotion</p>
+                  <p>Knowledge</p>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="gap-lg-3 col-md-3 col-6">
+                  <h4>Pages</h4>
+                  <p>Accessibility</p>
+                  <p>Lertifiotion</p>
+                  <p>Knowledge</p>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-6 col-10">
+                <h4>SUBSCRIBE</h4>
+                <div class="d-flex">
+                  <input type="text">
+                  <button class="all-button">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+       <!-- footer end -->
+  
+  
+
+<script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>

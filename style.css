@@ -1,0 +1,45 @@
+.start{
+  background-image: url(./img/header-bg.png);
+  min-height: 690px;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-link{
+  color: black;
+}
+.navbar-link:hover{
+  color: #1B75BB;
+}
+.all-button{
+  color: white;
+  background-color: #1B75BB;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: none;
+}
+.header h1{
+  font-size: 57px;
+}
+.home{
+  color: #1B75BB;
+}
+.dream{
+  min-height: 340px;
+}
+.choose-img{
+  max-width: 70px;
+  max-height: 70px;
+}
+.card{
+  min-height: 300px;
+}
+.small-card{
+  width: 231px;
+  height: 126px;
+  background-image: url(./img/blur.png);
+  border-radius: 10px;
+  margin-top: -125px;
+}
+.footer{
+  background-color: #FCFCFD;
+}
